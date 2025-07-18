@@ -1,12 +1,26 @@
-# React + Vite
+## Hooked
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![hooked] (public/hooked.png)
 
-Currently, two official plugins are available:
+A Hangman lyric game. Guess the missing word to complete the lyric.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Hooked - A play on song hooks and being "hooked" on a game.
 
-## Expanding the ESLint configuration
+I created this game when I first learned how to code. At the time I was really hooked on Never mind the Buzzcocks. Inspired by the show I created this hangman game where you have to guess the missing word from the lyric.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+I initally built it using plain jquery and hosted on Heroku. It was never fully functional so six years later I have rebuilt it using Vite and React adding some extra functionality which back then I just wasnt sure how.
+
+The styles have remained the same so I remember exactly how it looked like initially.
+
+###To do:
+
+- Split things out into multiple components 
+- Add tests.
+
+### Notes
+
+```
+<!--Notes to deploy to GH pages-->
+npm run build
+npm run deploy
+```
