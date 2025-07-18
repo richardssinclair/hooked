@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+.title {
+  font-family: "Bungee Shade", cursive;
+  text-align: center;
+  font-size: 42px;
+  margin: 0;
+}
+
+.subtitle {
+  font-family: "Bungee Shade", cursive;
+  text-align: center;
+  font-size: 28px;
+  margin: 0;
+}
+
+.game-container {
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+  height: 380px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin-bottom: 46px;
+}
+
+.game-controls {
+  width: 90%;
+  max-width: 400px;
+  color: orange;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.lyrics-box {
+  font-family: "Roboto", sans-serif;
+  background-color: white;
+  margin: 0 auto 5px;
+  color: black;
+  border: 3px solid black;
+  opacity: 0.9;
+  border-radius: 70px;
+  padding: 60px;
+}
+
+.lyrics-text {
+  margin: 0;
+}
+
+.button {
+  font-family: "Vast Shadow", cursive;
+  width: 150px;
+  font-size: 20px;
+  border: 2px solid #000;
+  border-radius: 15px;
+  color: #000;
+  background-color: #fff;
+  margin: 0 5px;
+  text-align: center;
+  font-family: "Bungee Shade", cursive;
+}
+
+.gifBox {
+  display: flex;
+  justify-content: center;
+  min-height: 260px;
+  position: relative;
+  margin-top: 5px;
+}
+
+.gifImg {
+  max-width: 400px;
+  width: 100%;
+  position: relative;
+}
+
+.gifImgResult {
+  max-width: 400px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.winnerColour {
+  animation: Color 4s linear infinite;
+  -webkit-animation: Color 4s ease-in-out infinite;
+}
+
+@keyframes Color {
+  0% {
+    color: #dd6161;
+  }
+
+  20% {
+    color: #e3eb4a;
+  }
+
+  40% {
+    color: #69ed48;
+  }
+
+  60% {
+    color: #48b8f9;
+  }
+
+  80% {
+    color: #ed55b5;
+  }
+
+  100% {
+    color: #db6363;
+  }
+}
+
+@-moz-keyframes Color {
+  0% {
+    color: #dd6161;
+  }
+
+  20% {
+    color: #e3eb4a;
+  }
+
+  40% {
+    color: #69ed48;
+  }
+
+  60% {
+    color: #48b8f9;
+  }
+
+  80% {
+    color: #ed55b5;
+  }
+
+  100% {
+    color: #db6363;
+  }
+}
+
+@-webkit-keyframes Color {
+  0% {
+    color: #dd6161;
+  }
+
+  20% {
+    color: #e3eb4a;
+  }
+
+  40% {
+    color: #69ed48;
+  }
+
+  60% {
+    color: #48b8f9;
+  }
+
+  80% {
+    color: #ed55b5;
+  }
+
+  100% {
+    color: #db6363;
+  }
+}
